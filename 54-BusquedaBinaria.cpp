@@ -1,7 +1,7 @@
 /*
-    Busqueda Binaria By Alejandro Tavoada
-    Url video explicaod por Alejandro: https://www.youtube.com/watch?v=pxh4QFzDh-Q
-    [Mod by Jorge Móstiga]
+    Busqueda Binaria By Alejandro Taboada Sanchez
+    Url video explicado por Alejandro: https://www.youtube.com/watch?v=pxh4QFzDh-Q
+    [Mod by Jorge Móstiga - https://jorgemostiga.pe/]
 */
 #include <iostream>
 #include <conio.h>
@@ -11,7 +11,10 @@ int main()
     int numeros[] = {1, 2, 3, 4, 5};
     int inf, sup, mitad, dato;
     char band = 'F'; // Puede tomar 3 valores (F, V, E) (Falso, Verdadero, Encontrado) ya que sin solo fuera 2 valores(V o F) sería de tipo boolean
-    dato = 3;
+    
+    //Pidiendole al usuario un numero cualquiera.
+    cout<<"Ingrese un numero para buscarlo en el arreglo: ";
+    cin>>dato;
     // Algoritmo de la Busqueda Binaria
     inf = 0;
     sup = 5;
