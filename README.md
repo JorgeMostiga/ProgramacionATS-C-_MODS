@@ -1,0 +1,1 @@
+En este repositorio voy a poner mis versiones de los ejercicios de este carismatico profesor Alejandro Taboada Sánchez, Disfruten de mis versiones y cualquier comentario sobre alguna mejora es bienvenido.
